@@ -7,4 +7,5 @@
     <string name="free_throw">Free Throw</string>
     <string name="team_b">Team B</string>
     <string name="text_finish">Finish</string>
+    <string name="reset_text">Reset</string>
 </resources>

@@ -5,7 +5,6 @@
     android:background="@drawable/bsktbl">
 
 
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,8 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_8"
                 android:onClick="addThreeForTeamA"
-                android:textColor="@color/white_color"
-                android:text="@string/add_3" />
+                android:text="@string/add_3"
+                android:textColor="@color/white_color" />
 
             <Button
                 android:layout_width="match_parent"
@@ -53,14 +52,14 @@
                 android:layout_marginBottom="@dimen/margin_8"
                 android:onClick="addTwoForTeamA"
                 android:text="@string/add_2"
-                android:textColor="@color/white_color"/>
+                android:textColor="@color/white_color" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addOneForTeamA"
                 android:text="@string/free_throw"
-                android:textColor="@color/white_color"/>
+                android:textColor="@color/white_color" />
 
         </LinearLayout>
 
@@ -80,8 +79,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/margin_16"
+                android:gravity="center_horizontal"
                 android:text="@string/team_b"
                 android:textColor="@color/team2_color"
                 android:textSize="20sp" />
@@ -90,8 +89,8 @@
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/margin_24"
+                android:gravity="center_horizontal"
                 android:text="@string/show_zero"
                 android:textColor="@color/black_color"
                 android:textSize="@dimen/text_56" />
@@ -102,7 +101,7 @@
                 android:layout_marginBottom="@dimen/margin_8"
                 android:onClick="addThreeForTeamB"
                 android:text="@string/add_3"
-                android:textColor="@color/white_color"/>
+                android:textColor="@color/white_color" />
 
             <Button
                 android:layout_width="match_parent"
@@ -110,14 +109,14 @@
                 android:layout_marginBottom="@dimen/margin_8"
                 android:onClick="addTwoForTeamB"
                 android:text="@string/add_2"
-                android:textColor="@color/white_color"/>
+                android:textColor="@color/white_color" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="addOneForTeamB"
                 android:text="@string/free_throw"
-                android:textColor="@color/white_color"/>
+                android:textColor="@color/white_color" />
 
         </LinearLayout>
     </LinearLayout>
@@ -127,18 +126,19 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="resetScore"
-        android:text="Reset"
         android:layout_marginBottom="@dimen/dimen_60"
-        android:textColor="@color/white_color"/>
+        android:onClick="resetScore"
+        android:text="@string/reset_text"
+        android:textColor="@color/white_color" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_8"
         android:onClick="showResult"
         android:text="@string/text_finish"
-        android:textColor="@color/white_color"
-        android:layout_marginBottom="@dimen/margin_8"/>
+        android:textColor="@color/white_color" />
 
 </RelativeLayout>
